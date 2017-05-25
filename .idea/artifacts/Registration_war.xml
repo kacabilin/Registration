@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Registration:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Registration-1.0-SNAPSHOT.war">
+      <element id="directory" name="META-INF" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="postgresql-42.1.1.jre6" />
+        </element>
+      </element>
+      <element id="artifact" artifact-name="Registration:war exploded" />
+    </root>
+  </artifact>
+</component>
